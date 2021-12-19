@@ -1,0 +1,829 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box
+}
+
+#container {
+    width: 100%
+}
+
+#header {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #fff
+}
+
+#header img {
+    margin: 50px 0 0 0
+}
+
+#header h1 {
+    font-size: 2em;
+    font-family: Cooper Std;
+    margin: -12% 0 0 20%;
+    font-weight: lighter
+}
+
+#header h1 span {
+    font-weight: 700
+}
+
+#header ul {
+    font-family: corbel;
+    font-size: 1em;
+    list-style-type: none;
+    margin: 5% 0 0 75%;
+    text-transform: uppercase
+}
+
+#header ul li {
+    margin: 5% 0 0 0
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: #202242
+}
+
+#background {
+    width: 100%;
+    border: 1px solid #fff;
+    background: linear-gradient(rgba(96, 78, 91, .4), rgba(61, 40, 58, .3)), url(../images/pr.jpg);
+    background-size: 100% 100%
+}
+
+#background h2 {
+    font-size: 1.8em;
+    font-family: corbel;
+    color: #fff;
+    text-align: center;
+    margin: 5% 0 0 0
+}
+
+#background h3 {
+    font-size: 1.875em;
+    font-family: corbel;
+    color: #fff;
+    text-align: center
+}
+
+#background img {
+    margin: 5% 0 0 35%
+}
+
+#rectangle {
+    width: 95%;
+    height: 3.9em;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    margin: 10% 0 30% 2.5%;
+    font-family: corbel
+}
+
+#rectangle form input[type=text] {
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin: 4% 0 0 4%;
+    color: #000;
+    padding: 10px
+}
+
+#rectangle select {
+    padding: 10px;
+    border: 1px solid #87867e70;
+    border-right: 1px solid #fff;
+    margin: 0 0 0 -1.5%;
+    background-color: #87867e70
+}
+
+#rectangle form input[type=submit] {
+    padding: 10px;
+    margin: 12% 0 4% 29%;
+    background-color: #87867e70;
+    border: 1px solid #87867e70;
+    color: #fff
+}
+
+#middle {
+    width: 100%
+}
+
+#middle #blue {
+    padding: 10px;
+    border: 1px solid #202242;
+    background-color: #424354
+}
+
+#blue img {
+    margin: 10% 0 0 31%
+}
+
+#blue h3 {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: corbel;
+    margin: 9% 0 0 0
+}
+
+#blue p {
+    font-family: corbel;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    margin: 5% 0 0 0
+}
+
+#blue input {
+    padding: 10px 25px 10px 25px;
+    margin: 10% 0 20% 35%;
+    background-color: #202242;
+    color: #fff;
+    font-size: 1.25em;
+    border: 1px solid #fff
+}
+
+#middle #yellow {
+    padding: 10px;
+    border: 1px solid #87867e;
+    background-color: #b5bfcf;
+}
+
+#yellow img {
+    margin: 10% 0 0 31%
+}
+
+#yellow h3 {
+    color: #000;
+    font-size: 1.5em;
+    font-family: corbel;
+    text-align: center;
+    margin: 9% 0 0 0
+}
+
+#yellow p {
+    font-family: corbel;
+    font-size: 1em;
+    text-align: center;
+    color: #000;
+    margin: 5% 0 0 0
+}
+
+#yellow input {
+    padding: 10px 25px 10px 25px;
+    margin: 10% 0 20% 35%;
+    color: #000;
+    font-size: 1.25em;
+    border: 1px solid #87867e;
+    background-color: #b5bfcf;
+}
+
+#greybox {
+    width: 100%;
+    padding: 10px;
+    background-image: url(images/rectangle.png);
+    border: 1px solid #fbf8f1
+}
+
+#greybox h2 {
+    font-size: 2em;
+    text-align: center;
+    font-family: corbel;
+    color: #202242;
+    margin: 2% 0 0 0
+}
+
+#greybox h3 {
+    font-size: 1.25em;
+    text-align: center;
+    font-family: corbel;
+    margin: 0;
+    color: #202242;
+    font-weight: lighter
+}
+
+#greybox div img {
+    margin: 10% 0 0 30%
+}
+
+#greybox div hr {
+    width: 32%;
+    color: #8d8d99;
+    margin: 5% 0 0 35%
+}
+
+#greybox div h5 {
+    color: #202242;
+    font-family: corbel;
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-align: center;
+    margin: 5% 0 0 0;
+    text-shadow: 2px 2px 8px #ff0
+}
+
+#greybox div p {
+    color: #202242;
+    font-size: 1em;
+    font-family: corbel;
+    text-align: center;
+    margin: 5% 0 0 0;
+    line-height: 28px
+}
+
+#whitebox {
+    width: 100%;
+    padding: 10px
+}
+
+#whitebox h2 {
+    font-family: corbel;
+    font-size: 2em;
+    text-align: center;
+    margin: 10% 0 0 0;
+    color: #202242
+}
+
+#whitebox p {
+    text-align: center;
+    margin: 5% 0 0 0;
+    font-family: corbel;
+    font-size: 1em;
+    color: #756f6f
+}
+
+#whitebox ul {
+    margin: 0 0 0 23%
+}
+
+#whitebox ul li {
+    display: inline-block;
+    margin: 10% 0 0 0
+}
+
+#whitebox div {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #faf9f9;
+    background-color: #faf9f9;
+    margin: 10% 0 10% 0
+}
+
+#whitebox div p {
+    font-family: corbel;
+    font-size: 1em;
+    color: #756f6f;
+    text-align: justify;
+    font-style: italic;
+    margin: 8% 0 0 0
+}
+
+#whitebox div h6 {
+    font-family: corbel;
+    font-size: 1.5em;
+    color: #696969;
+    margin: 5% 0 0 0
+}
+
+#whitebox div img {
+    width: 50%;
+    height: 9em;
+    border: 1px solid #000;
+    border-radius: 100%;
+    margin: -10% 0 0 50%
+}
+
+#bluebox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #424354;
+    background-color: #424354
+}
+
+#bluebox h2 {
+    font-family: corbel;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+    margin: 20% 0 0 0
+}
+
+#bluebox h6 {
+    font-family: corbel;
+    font-size: 1em;
+    text-align: center;
+    color: #67687b;
+    font-weight: lighter;
+    margin: 0
+}
+
+#bluebox input[type=submit] {
+    padding: 10px 20px 10px 20px;
+    font-family: Myriad Pro;
+    font-size: 1.25em;
+    border: 1px solid #202242;
+    background-color: #202242;
+    margin: 8% 0 5% 25%;
+    color: #ddd;
+}
+
+#footer {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #424354;
+    background-color: #424354
+}
+
+#footer h3 {
+    font-family: corbel;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    margin: 5% 0 0 0;
+    font-weight: lighter
+}
+
+#footer ul {
+    color: #fff;
+    margin: 3% 0 0 2%;
+    list-style-type: none
+}
+
+#footer ul li {
+    margin: 3% 0 0 2%;
+    font-weight: lighter;
+    display: inline-block
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: #fff
+}
+
+#footer #img4 {
+    width: 100px;
+    height: 100px;
+    margin: 12% 0 0 45%
+}
+
+#footer p {
+    color: #fff;
+    font-size: .875em;
+    text-align: center;
+    margin: 5% 0 0 0;
+    font-family: corbel
+}
+
+#footer h5 {
+    color: #fff;
+    font-size: 10px;
+    font-family: corbel;
+    text-align: center;
+    margin: 0 0 10% 0
+}
+
+#footer h5 span {
+    color: #a5a499
+}
+
+@media only screen and (min-width:375px) {
+    #header h1 {
+        margin: -10% 0 0 20%
+    }
+    #header img {
+        margin: 3% 0 0 4%
+    }
+    #background img {
+        margin: 5% 0 0 38%
+    }
+    #rectangle {
+        width: 80%;
+        height: 3.9em;
+        margin: 10% 0 30% 15%
+    }
+    #rectangle form input[type=submit] {
+        margin: 12% 0 4% 25%
+    }
+    #blue img {
+        margin: 10% 0 0 34%
+    }
+    #yellow img {
+        margin: 10% 0 0 34%
+    }
+    #greybox div img {
+        margin: 10% 0 0 34%
+    }
+    #whitebox ul {
+        margin: 0 0 0 27%
+    }
+    #whitebox div img {
+        width: 40%;
+        height: 8em;
+        margin: -10% 0 0 55%
+    }
+    #bluebox input[type=submit] {
+        margin: 8% 0 5% 27%
+    }
+    #footer ul {
+        margin: 3% 0 0 7%
+    }
+    #footer ul li {
+        margin: 3% 0 0 3%
+    }
+    #footer #img4 {
+        margin: 15% 0 0 49%
+    }
+}
+
+@media only screen and (min-width:425px) {
+    #header h1 {
+        margin: -10% 0 0 20%
+    }
+    #header img {
+        margin: 3% 0 0 4%
+    }
+    #background img {
+        margin: 5% 0 0 38%
+    }
+    #rectangle {
+        width: 70%;
+        height: 3.9em;
+        margin: 10% 0 30% 15%
+    }
+    #rectangle form input[type=submit] {
+        margin: 12% 0 4% 28%
+    }
+    #blue img {
+        margin: 10% 0 0 36%
+    }
+    #blue input {
+        margin: 10% 0 20% 39%
+    }
+    #yellow img {
+        margin: 10% 0 0 37%
+    }
+    #yellow input {
+        margin: 10% 0 20% 39%
+    }
+    #greybox div img {
+        margin: 10% 0 0 36%
+    }
+    #whitebox ul {
+        margin: 0 0 0 31%
+    }
+    #whitebox div img {
+        width: 40%;
+        height: 9em;
+        margin: -10% 0 0 55%
+    }
+    #bluebox input[type=submit] {
+        margin: 8% 0 5% 31%
+    }
+    #footer ul {
+        margin: 3% 0 0 5%
+    }
+    #footer ul li {
+        margin: 3% 0 0 5%
+    }
+    #footer #img4 {
+        margin: 15% 0 0 48%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    #header h1 {
+        margin: -5% 0 0 15%
+    }
+    #header img {
+        margin: 3% 0 0 6%
+    }
+    #header ul {
+        margin: 0 0 0 44%
+    }
+    #header ul li {
+        margin: 5% 0 0 5%;
+        display: inline-block
+    }
+    #background h2 {
+        font-size: 1.99em;
+        margin: 5% 0 0 0
+    }
+    #background h3 {
+        font-size: 1.5em
+    }
+    #background img {
+        margin: 5% 0 0 42%
+    }
+    #rectangle {
+        width: 55%;
+        height: 3.8em;
+        margin: 10% 0 20% 23%
+    }
+    #rectangle form input[type=text] {
+        margin: 2.6% 0 0 3%
+    }
+    #rectangle select {
+        margin: 0 0 0 -1.5%
+    }
+    #rectangle form input[type=submit] {
+        margin: 0 0 0 -.9%
+    }
+    #blue img {
+        margin: 10% 0 0 43%
+    }
+    #blue p {
+        width: 70%;
+        margin: 5% 0 0 15%
+    }
+    #blue input {
+        margin: 10% 0 0% 45%
+    }
+    #yellow img {
+        margin: 10% 0 0 42%
+    }
+    #yellow p {
+        width: 70%;
+        margin: 5% 0 0 15%
+    }
+    #yellow input {
+        margin: 10% 0 0% 45%
+    }
+    #greybox div {
+        width: 40%;
+        height: 20em;
+        display: inline-block;
+        margin: 5% 0 5% 6.4%
+    }
+    #greybox div img {
+        margin: 10% 0 0 29%
+    }
+    #whitebox p {
+        width: 70%;
+        margin: 5% 0 0 15%
+    }
+    #whitebox ul {
+        margin: 0 0 0 3%
+    }
+    #whitebox div {
+        width: 70%;
+        height: 13em;
+        margin: 5% 0 10% 15%
+    }
+    #whitebox div img {
+        width: 30%;
+        height: 9em;
+        margin: -10% 0 0 60%
+    }
+    #whitebox div p {
+        width: 90%;
+        margin: 10% 0 0 3%
+    }
+    #bluebox h2 {
+        font-size: 1.5em;
+        margin: 10% 0 0 0;
+        text-align: center
+    }
+    #bluebox h6 {
+        margin: 0
+    }
+    #bluebox input[type=submit] {
+        margin: 5% 0 5% 40%
+    }
+    #footer ul {
+        margin: 3% 0 0 22%
+    }
+    #footer #img4 {
+        margin: 5% 0 0 48%
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #header h1 {
+        margin: -4% 0 0 12%
+    }
+    #header img {
+        margin: 3% 0 0 5%
+    }
+    #header ul {
+        margin: -4% 0 2% 60%
+    }
+    #header ul li {
+        margin: 5% 0 0 5%;
+        display: inline-block
+    }
+    #background img {
+        margin: 5% 0 0 45%
+    }
+    #rectangle {
+        width: 40.8%;
+        height: 3.8em;
+        margin: 10% 0 20% 31%
+    }
+    #rectangle form input[type=text] {
+        margin: 2.7% 0 0 3%
+    }
+    #rectangle select {
+        margin: 0 0 0 -1.5%
+    }
+    #rectangle form input[type=submit] {
+        margin: 0 0 0 -.8%
+    }
+    #middle div {
+        width: 49.8%;
+        height: 35em;
+        display: inline-block
+    }
+    #blue img {
+        margin: 10% 0 0 39%
+    }
+    #blue input {
+        margin: 10% 0 20% 40%
+    }
+    #yellow img {
+        margin: 10% 0 0 39%
+    }
+    #yellow p {
+        width: 70%;
+        margin: 5% 0 0 15%
+    }
+    #yellow input {
+        margin: 10% 0 20% 40%
+    }
+    #greybox div {
+        width: 24%;
+        height: 20em;
+        display: inline-block;
+        margin: 5% 0 5% .6%
+    }
+    #greybox div img {
+        margin: 10% 0 0 26%
+    }
+    #whitebox p {
+        width: 50%;
+        margin: 2% 0 0 27%
+    }
+    #whitebox ul {
+        margin: 5% 0 0 8%
+    }
+    #whitebox ul li {
+        margin: 0 0 0 3%
+    }
+    #whitebox div {
+        width: 30%;
+        height: 13em;
+        display: inline-block;
+        margin: 5% 0 10% 2.3%
+    }
+    #whitebox div img {
+        width: 43%;
+        height: 7em;
+        margin: -10% 0 0 55%
+    }
+    #whitebox h2 {
+        margin: 0% 0 0 0
+    }
+    #whitebox div p {
+        width: 90%;
+        margin: 10% 0 0 3%
+    }
+    #bluebox h2 {
+        font-size: 1.8em;
+        margin: 10% 0 0 0;
+        text-align: center
+    }
+    #bluebox input[type=submit] {
+        margin: 3% 0 5% 43%
+    }
+    #footer ul {
+        margin: 0 0 0 28%
+    }
+    #footer #img4 {
+        margin: 5% 0 0 48%
+    }
+    #footer p {
+        font-size: .975em;
+        margin: 2% 0 0 0
+    }
+    #footer h5 {
+        margin: 0 0 5% 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    #header h1 {
+        font-size: 3em;
+        margin: -4% 0 0 12%
+    }
+    #header img {
+        width: 5%;
+        height: 5em;
+        margin: 3% 0 0 5%
+    }
+    #header ul {
+        font-size: 1.5em;
+        margin: -5% 0 2% 55%
+    }
+    #background h2 {
+        font-size: 2.99em
+    }
+    #background h3 {
+        font-size: 2em
+    }
+    #background img {
+        margin: 5% 0 0 48%
+    }
+    #rectangle {
+        width: 34%;
+        height: 5.5em;
+        margin: 5% 0 10% 34%
+    }
+    #rectangle form input[type=text] {
+        margin: 3% 0 0 4%;
+        padding: 20px
+    }
+    #rectangle select {
+        margin: 0 0 0 -1.5%;
+        padding: 20px
+    }
+    #rectangle form input[type=submit] {
+        margin: 0 0 0 -.6%;
+        padding: 20px
+    }
+    #middle div {
+        width: 49.8%;
+        height: 35em;
+        display: inline-block
+    }
+    #blue img {
+        margin: 10% 0 0 43%
+    }
+    #blue p {
+        font-size: 1.1em
+    }
+    #blue input {
+        margin: 10% 0 20% 43%
+    }
+    #yellow img {
+        margin: 10% 0 0 43%
+    }
+    #yellow p {
+        font-size: 1.1em
+    }
+    #yellow input {
+        margin: 10% 0 20% 44%
+    }
+    #greybox h2 {
+        font-size: 3em
+    }
+    #greybox div {
+        height: 22em
+    }
+    #greybox div img {
+        margin: 10% 0 0 32%
+    }
+    #greybox div p {
+        font-size: 1.5em
+    }
+    #whitebox h2 {
+        font-size: 3em
+    }
+    #whitebox p {
+        width: 35%;
+        font-size: 1.4em;
+        margin: 7% 0 0 3%
+    }
+    #whitebox ul {
+        margin: -7% 0 0 40%
+    }
+    #whitebox div img {
+        width: 45%;
+        height: 11em;
+        margin: -10% 0 0 55%
+    }
+    #bluebox h2 {
+        font-size: 2em
+    }
+    #bluebox input[type=submit] {
+        margin: 3% 0 5% 45%
+    }
+    #footer h3 {
+        font-size: 1.5em
+    }
+    #footer ul {
+        font-size: 1.2em;
+        margin: 0 0 0 30%
+    }
+    #footer #img4 {
+        margin: 5% 0 0 49%
+    }
+    #footer p {
+        font-size: 1.2em;
+        margin: 2% 0 0 0
+    }
+    #footer h5 {
+        font-size: 1.4em;
+        margin: 0 0 5% 0
+    }
+}
